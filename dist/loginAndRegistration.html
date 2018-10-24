@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="css/login.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src = 'js/require.js' async="true" defer data-main = 'js/main'></script>
+	</head>
+	<body style="background:#edeff1">
+	<!-- 头部 -->
+		<header id="header_id">
+			<a id="classify" href="###">分类</a>
+			<div id="classify_none">
+				<ul id="classify_none_left">
+					<li>所有运动</li>
+					<li>运动服饰</li>
+					<li>运动鞋袜</li>
+					<li>运动装备</li>
+					<div style="color:red"><a style="color:red" href="">尾货专区</a></div>
+					<div style="color:#999"><a style="color:#999" href="">保养维修</a></div>
+					<div style="color:#999"><a style="color:#999"  href="">个性定制</a></div>
+					
+				</ul>
+				<!-- 右框内容 -->
+				<div id="classify_none_right">
+				</div>
+			</div>
+			<div class="img_form">
+				<a href="index.html"><img src="images/decathlon.jpg" alt=""></a>
+				<form action="">
+					<input style="border: 0px;outline:none;" class="form_input" type="text" placeholder="  输入商品或商品号">
+					<input style="border: 0px;outline:none;" id="form_obtn" class="form_btn" type="button">
+					<span id="bigbig" class="glyphicon glyphicon-search" ></span>
+				</form>
+			</div>
+			<ul id="header">
+				<li id="header_li1"><a href=""	class="glyphicon glyphicon-question-sign"><span>帮助</span></a></li>
+				<li id="header_li2"><a href=""	class="glyphicon glyphicon-inbox"><span>门店</span></a></li>
+				<li id="header_li3"><a href="login_1.html"	class="glyphicon glyphicon-user"><span>账户</span></a></li>
+				<li id="header_li4"><a href=""	class="glyphicon glyphicon-shopping-cart"><span>购物车</span></a><dd id="sum_math">0</dd></li>
+			</ul>
+			<div id="header_div1">
+				<h4><em>需要帮助？</em></h4>
+				<h4>查看 常见问题</h4>
+				<h4>联系我们：18080808080
+					<br>9:00-18:00 周日休息
+					</h4>
+				
+			</div>
+			<div id="header_div2"><h4><em>NEW! 您选择的门店</em></h4>
+				<h5>选择您常去的门店，查看门店库存</h5>
+			</div>
+				
+			<div id="header_div4"><h4><em>购物车</em></h4><img src="images/checkout-empty-cart.jpg" alt=""><h5>您的购物车是空的</h5><h6>继续购物</h6></div>
+		</header>
+	<!-- 登录界面 -->
+		<div class="under_a"><a id="exis_under" href="###">&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;返回</a></div>
+		<div id="login_res">
+			<h1><em>创建账户</em></h1>
+			<p>请根据步骤输入您的信息，来创建您的迪卡侬账户</p>
+			<h2><em>验证手机</em></h2>
+			<label for="">手机号码*：</label>
+			<section>
+				<div class="tel_inputs">
+					<div class="tel_input_img">
+						<img src="images/china.jpg" alt="">
+					</div>
+					<div class="tel_input_text">
+						<input style="border: 0px;outline:none;" id="tel_input_text" type="text" name="telephone">
+						<i id="checkYes1" class="glyphicon glyphicon-ok"></i>
+					</div>
+				</div>
+				<fieldset id="tel_warning"></fieldset>
+			</section>
+			<h3><em>填写个人信息</em></h3>
+			<h4>性别：</h4>
+			<ul>
+				<input style="border: 0px;outline:none;" class="radio1" type="radio" name="radio">&nbsp;男士
+				<input style="border: 0px;outline:none;" class="radio2" type="radio" name="radio">&nbsp;女士
+			</ul>
+			<dl>
+				<dt>姓*：<span>名*：</span></dt>
+				<dd><div class="surname">
+					<form action="index.php" method="post">
+					<input style="border: 0px;outline:none;" id="surname_text" type="text" name="surname"></form>
+					<i id="checkYes2" class="glyphicon glyphicon-ok"></i>
+				</div>
+				<fieldset id="surname_warning"></fieldset>
+				<div class="name">
+					<input style="border: 0px;outline:none;" id="name_text" type="text" name="name">
+					<i id="checkYes3" class="glyphicon glyphicon-ok"></i>
+				</div></dd>
+				<fieldset id="name_warning"></fieldset>
+			</dl>
+			<h3 class="password"><em>设置密码</em></h3>
+			<h4>密码*：</h4>
+			<ol>
+				<h5>
+					<input style="border: 0px;outline:none;" id="h5_text" type="password" name="password">
+					<i class="glyphicon glyphicon-eye-open"></i>
+				</h5>
+				<fieldset id="password_warning"></fieldset>
+			</ol>
+			<h3 class="text_you"><em>推送优惠活动</em></h3>
+			<h6>我希望收到迪卡侬及其激情品牌的最新资讯和活动* :</h6>
+			<ul>
+				<input style="border: 0px;outline:none;" class="radio1" type="radio" name="radio">&nbsp;是
+				<input style="border: 0px;outline:none;" class="radio2" type="radio" name="radio">&nbsp;否
+			</ul>
+		</div>
+		<div class="under_b"><a id="exis_under_1" href="###">&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;返回</a><a id="exis_under_2" href="login_1.html">&nbsp;创建账户&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></div>
+		<h1 id="start_student">我已阅读并同意 <a href="">迪卡侬会员须知</a></h1>
+		<img id="background_under_back" src="images/background_under_back.jpg" alt="">
+
+		<div id="judge">
+			<h1>您的密码需要包含： :</h1>
+			<h2 id="regex1" class="glyphicon glyphicon-ok"></h2><span>至少8个字符</span>
+			<h2 id="regex2" class="glyphicon glyphicon-ok"></h2><span>至少1个数字</span>
+			<h2 id="regex3" class="glyphicon glyphicon-ok"></h2><span>至少一个英文字母</span>
+		</div>
+	</body>
+</html>
